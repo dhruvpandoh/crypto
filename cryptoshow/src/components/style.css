@@ -1,0 +1,105 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th{
+    background-color: #F4F2FF;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .header{
+    background-color: #35496B;
+    width: 100%;
+    height: 5rem;
+  }
+  .logo{
+    margin-left: -84rem;
+    font-size: 40px;
+    color: #1387BD;
+    /* text-align: left; */
+  }
+  .sublogo
+  {
+    margin-left: -79rem;
+  }
+  .cardparent
+  {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top:1%;
+    height: 15rem;
+    /* background-color: aqua; */
+    position: relative;
+  }
+
+  .tableparent
+  {
+    width: 70%;
+    margin-left: 15%;
+    margin-top:1%; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+  }
+
+  .searchBarParent{
+    display: flex;
+    
+  }
+  .searchBar{
+    border: none;
+    background-color: #F4F2FF;
+    height: 2rem;
+    width: 22rem;
+    margin-top: 22px;
+    margin-left: 63px;
+  }
+  .wrapper{
+    height: 10rem;
+    width: 15rem;
+    /* border: 1px Solid black; */
+    position: relative;
+    background-color: #F5F5F5;
+    /* transform: translate(-50%,-50%) scale(1.4); */
+  }
+
+  .cardicon{
+    height: 50px;
+    position: absolute;
+    top: 31px;
+    right: 35px;
+  }
+.cardTitle{
+    position:absolute;
+    left: 27px;
+    top: 30px;
+    font-size: 19px;
+}
+.cardPrice{
+    position:absolute;
+    left: 66px;
+    bottom: 35px;
+    font-size: 23px;
+}
+.pageContainer{
+    background-color: #F4F2FF;
+}
+.pagination
+{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 25%;
+   
+}
